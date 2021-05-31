@@ -1,0 +1,23 @@
+.botNavBar{
+    display: grid;
+    background: #262626;
+    grid-template-columns: 1fr 282px;
+    -webkit-box-shadow: 0px -4px 4px 0px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px -4px 4px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px -4px 4px 0px rgba(0, 0, 0, 0.2);
+}
+
+.profileBtn{
+    display: flex;
+    margin: 6px 16px 6px 16px;
+    border-radius: 5px;
+    border: none;
+    background: #373737;
+    height: 44px;
+    width: 250px;
+    transition: all .3s ease-in-out;
+}
+
+.profileBtn:hover{
+    background: #1C1C1C;
+}

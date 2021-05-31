@@ -1,0 +1,23 @@
+.navBtnContainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navButton{
+    width: 250px;
+    height: 44px;
+    border: none;
+    border-radius: 5px;
+    background: transparent;
+    transition: all .3s ease-in-out;
+}
+
+.navButton:hover{
+    background: #1C1C1C;
+}
+
+.navButton img{
+    width: 32px;
+    height: auto;
+}
